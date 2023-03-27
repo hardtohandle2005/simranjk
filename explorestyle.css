@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hdng{
+    background-image: url(exp/hdng.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    height: 80%;
+    margin-top: 10px;
+    width: 10%:
+}
+.what h1{
+    text-align: center;
+    color: blue;
+    margin-top: 5%;
+    font-family: 'Corben', cursive;
+    font-size: 30px;
+}
+.what p{
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-top: 2%;
+    font-size: 23px;
+    font-family: 'Bona Nova', serif;
+}
+.what h2{
+    text-align: center;
+    color: blue;
+    margin-top: 5%;
+    font-family: 'Corben', cursive;
+    font-size: 30px;
+}
+.what p1{
+    color:crimson;
+    font-family: 'Bona Nova', serif;
+    font-size: 23px;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+.how{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.what h3{
+    text-align: center;
+    color: blue;
+    margin-top: 5%;
+    font-family: 'Corben', cursive;
+    font-size: 30px;
+}
+.what h4{
+    margin-left: 2%;
+    color: black;
+    margin-top: 5%;
+    font-family: 'Corben', cursive;
+    font-size: 19px;
+}
+.what h5{
+    text-align: center;
+    color: blue;
+    margin-top: 5%;
+    font-family: 'Corben', cursive;
+    font-size: 30px;
+}
+.hybrid {
+    margin-left: 20%;
+}
+.what h6{
+    text-align: center;
+    color: blue;
+    margin-top: 5%;
+    font-family: 'Corben', cursive;
+    font-size: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    padding: 6px;
+    font-size: 20px;
+    background-color:brown;
+    color: aliceblue;
+    cursor: pointer;
+}
+/*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*//*--------------------------------------------------*/
+@media screen and (max-width:600px)and (min-width:0px)
+{
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hdng{
+    background-image: url(exp/hdng.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    height: 60%;
+    margin-top:20%;
+    width: 10%:
+}
+    .what h1{
+    text-align: center;
+    color: blue;
+    margin-top: 5%;
+    font-family: 'Corben', cursive;
+    font-size: 16px;
+}
+.what p{
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-top: 2%;
+    font-size: 14px;
+    font-family: 'Bona Nova', serif;
+}
+.what h2{
+    text-align: center;
+    color: blue;
+    margin-top: 5%;
+    font-family: 'Corben', cursive;
+    font-size: 16px;
+}
+.what p1{
+    color:crimson;
+    font-family: 'Bona Nova', serif;
+    font-size: 14px;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+.how{
+    margin-left:0%;
+    margin-top: 2%;
+}
+.what h3{
+    text-align: center;
+    color: blue;
+    margin-top: 5%;
+    font-family: 'Corben', cursive;
+    font-size: 16px;
+}
+.what h4{
+    margin-left: 2%;
+    color: black;
+    margin-top: 5%;
+    font-family: 'Corben', cursive;
+    font-size: 14px;
+}
+.what h5{
+    text-align: center;
+    color: blue;
+    margin-top: 5%;
+    font-family: 'Corben', cursive;
+    font-size: 16px;
+}
+.hybrid {
+    margin-left: 5%;
+    width: 80%;
+}
+.what h6{
+    text-align: center;
+    color: blue;
+    margin-top: 5%;
+    font-family: 'Corben', cursive;
+    font-size: 16px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    padding: 6px;
+    font-size: 16px;
+    background-color:brown;
+    color: aliceblue;
+    cursor: pointer;
+}
