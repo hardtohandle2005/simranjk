@@ -1,0 +1,403 @@
+<html>
+<head>
+    <title>jksolar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Bona+Nova&display=swap" rel="stylesheet">        
+    <link rel="stylesheet" href="lightbox.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5b3d49decf.js" crossorigin="anonymous"></script>
+    </head>
+    <body onload="slider()">
+        <header>
+            <h1 id="1st"></h1>
+            <div class="lbar">
+            <img src="jk.jpg" class="logo">
+            <div class="hdngjk">
+            <h1>JK SOLAR PVT. LTD.</h1>
+                </div>
+            </div>
+                </header>
+                <div id="navbar">  
+                    <nav>
+            <ul>
+                <li><a href="#1st" class="active">Home</a>
+                <li><a href="#2nd">Explore</a></li>
+                <li><a href="#3rd">About Us</a></li>
+                <li><a href="#4th">Gallery</a></li>
+                <li><a href="#5th">Enquire Now</a></li>
+                <li><a href="#">Contact Us</a></li>
+                </ul> 
+                    </nav>
+                </div>
+       <div id="mb">
+        <img src=images/menu.png id="menu">
+        </div>
+        <script>
+        var mb = document.getElementById("mb")
+        var navbar = document.getElementById("navbar")
+        var menu = document.getElementById("menu")
+        
+        navbar.style.right = "-250px"
+            
+        mb.onclick = function(){
+            if(navbar.style.right == "-250px"){
+                navbar.style.right = "0";
+                menu.src="images/close.png";
+            }
+            else{
+                navbar.style.right ="-250px";
+                 menu.src="images/menu.png";
+
+            }
+            }
+        </script>
+        <div class="banner">
+        <div class="slider">
+        <img src="images/img1.jpg" id="slideImg">
+        </div>
+        <div class="overlay">
+            </div>
+            </div>
+        <div class="content">
+            <h3>SOLAR SUBSIDY AVAILABLE !</h3>
+        <h1>BRINGING A NEW DAWN FROM NATURAL<br>RESOURCES TO NATURAL ENERGY</h1>
+            <h2>LET THE SUN PAY YOUR BILLS !</h2>
+        <div class="icon">
+        <a href="tel:+919910304061" class="call">Call Us <i class="fa-solid fa-phone-volume"></i></a>
+        <a href="https://wa.me/919910304061" class="whatsapp"> Whatsapp <i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://goo.gl/maps/sGUfgzxkMPYb9vrJ7" class="maps">Maps <i class="fa-sharp fa-solid fa-location-dot"></i></a>
+        <a href="mailto:jksolargurugram@gmail.com" class="mail">Mail <i class="fa-solid fa-envelope"></i></a>
+            
+            </div>
+        </div>
+        <script>
+            var slideImg = document.getElementById("slideImg");
+            var images = new Array(
+                "images/img4.jpg",
+                "images/s1.jpg",
+                "images/s3.jpg",
+                "images/s2.jpeg",
+                "images/img7.jpg",
+                "images/img8.jpg",
+                "images/s4.jpeg",
+                "images/s5.jpeg",
+            );
+            var len = images.length;
+            var i = 0;
+            function slider(){
+                if(i > len-1){
+                    i = 0;
+                }
+                slideImg.src = images[i];
+                i++;
+                setTimeout('slider()',10000);
+            }                
+        </script>
+        <h1 id="2nd"></h1>
+        <div class="vdo">
+            <video width="350" controls>
+        <source src="images/video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="slr">
+        <h1>Easy and Convenient Process</h1>
+        <h2>GO SOLAR IN THREE EASY STEPS</h2>
+        </div>
+        <section class="info">
+        <div class="iinfo">
+            <div class="img img1"></div>
+            <h1>1.</h1>
+            <h2>ENQUIRE NOW</h2>
+            <h3>CALL US AT:<br>9911244410</h3>
+            </div>
+        
+        <div class="iinfo">
+            <div class="img"></div>
+            <h1>2.</h1>
+            <h2>We Will HELP</h2>
+            <h3>You to choose the configration best suited dor your needs.</h3>
+            </div>
+    
+        <div class="iinfo">
+            <div class="img"></div>
+            <h1>3.</h1>
+            <h2>SIT BACK AND RELAX</h2>
+             <h3>As your Solar Rooftop System is delivered, installed and commissioned.</h3>
+            </div>
+            </section>
+            <div class="bg"><img src="images/bgg.jpg" class="bgg"></div>            
+            <div class="container">
+            <h1>Why Go Solar ?</h1>
+            <h2>BENIFITS OF GOING SOLAR</h2>
+                <h3>Solar solutions installed on your roof or ground are ideal for harnessing the sun’s energy. Not only do they save electricity costs, but also help you fulfill you role as a responsible citizen by contributing positively to the environment.</h3>
+                <div class="con">
+           <div class="box">
+            <img src="images/i1.jpg">
+               <h1>90%+ bill saving</h1>
+            </div>
+                <div class="box">
+            <img src="images/i2.jpg">
+               <h1>Good for Environment</h1>
+            </div>
+                <div class="box">
+            <img src="images/i3.jpg">
+               <h1>Minimum Maintenance</h1>
+            </div>
+                <div class="box">
+            <img src="images/i4.jpg">
+               <h1>Green Building Certification</h1>
+            </div>
+                <div class="box">
+            <img src="images/i5.jpg">
+               <h1>Scalable Design</h1>
+            </div>
+                <div class="box">
+            <img src="images/i6.jpg">
+               <h1>Accelearated Deprection</h1>
+                    </div></div>
+        </div>
+        <div class="new">
+        <h1>What is Solar Energy?</h1>
+            <p>Solar power is a form of free energy from the sun that is freely available to us. This energy can be converted into useful electricity by solar panels and solar water heating systems.<br>
+            Since many years, solar energy has been regarded as a significant source of energy, capable of meeting all of our energy requirements while causing no harm to the environment.</p>
+            <h2>How It Works?</h2>
+            <p>The sun is an infinite source of free energy, and solar photovoltaic (PV) panels are used to convert it into usable electricity. A solar panel is made of a semi-conducting material based on silicon that is compressed between two electrical contacts. When sunlight strikes a solar panel, the photon particles are absorbed ....<br></p>
+        <a href="explore.html" class="re">READ MORE</a>
+        </div>
+        <div class="we">
+        <h1>What We Provide</h1>
+        </div>
+        <div class="box2">
+            <img src="images/o5.jpg">
+               <h1>Solar power plant Installation Service</h1>
+            </div>
+                <div class="box2">
+            <img src="images/o2.jpg">
+               <h1>Hybrid Solar Power Plant</h1>
+            </div>
+                <div class="box2">
+            <img src="images/o3.jpg">
+               <h1>Residential Solar Power Plant</h1>
+            </div>
+                <div class="box2">
+            <img src="images/o4.png">
+               <h1>Commercial Solar Power Plant</h1>
+            </div>
+                <div class="box2">
+                    <img src="images/07.jpg">
+               <h1>On Grid Solar Power Plant</h1>
+            </div>  
+        <h2 id="3rd"></h2>
+        <div class="banner-img"></div>
+        <div class="us">
+            <p>Jk Solar Private Limited is a Private incorporated on 13 April 2017. It is classified as Government approved Solar Company. Its authorized share capital is Rs. 500,000 and its paid up capital is Rs. 100,000. It is inolved in Production,collection and distribution of electricity.<br>Directors of Jk Solar Private Limited are Saroj and Muninder Pal.<br><br>We are one of the trusted company in field of Solar Power Solutions in India. We are Channel Partner of Ministry of New and Renewable Energy,Government of India , Dakshin Haryana Bijli Vitran Nigam for subsidized solar projects and ISO 9001:2015 Certified Organisation. Our solutions are consisting of using the best products and advanced technology.<br><br>We are offering widely used Grid Connected Solar Power Plant ( without Batteries ), OFF GRID Solar Power Plant and HYBRID Solar Power plants for Residential, Institutional and Industrial Customers as per their requirements. We Design customize solution as per requirement of the Customer. We have installed System with Net Meter or zero export in Various States of India.<br>Our offered solutions are widely acknowledged among our prestigious clients. Our company has been driven forward by pioneers in the solar industry.</p>
+        </div>
+        <div class="mission">
+        <h1>Our Mission</h1>
+            <p>Making green energy together,our wide range of products and services delivers tailored solutions for our customers.Our competence in consulting services and systems technology is compelling.Through our commitment,we create value for our  customers,partners,employees,and shareholders.</p>
+        </div>
+        <div class="vission">
+        <h1>Our Vision</h1>
+        <p>A world, in which renewable energy improves the quality of life and easy to use in our practical life, is our world. We make extensive use of the inexhaustible power of the sun to generate electricity. This is how we shape the energy supply of today and future.</p>
+        </div>
+        <div class="choose">
+        <h1>Why Choose Us</h1>
+            <p>  Provides complete Solar EPC solutions<br>
+ Best Quality of Roof Top Solar Panels Lasting 25 Years of Warranty<br>
+ Strong Dealer Network across North India<br>
+ Timely Delivery<br>
+ Competitive Price<br>
+ Provides excellent after sales service<br>
+ Superior Quality<br>
+ Experience professionals<br>
+ Customized/Tailored Solar products</p>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="ban-img"></div>
+        <h3 id="4th"></h3>
+        <div class="conn">
+            <h1>Gallery</h1>
+        <div class="gall">
+            <a href="galry/q1.jpeg" data-lightbox="models" data-title="Image1">
+            <img src="galry/q1.jpeg">
+            </a>
+            <a href="galry/q2.jpg" data-lightbox="models" data-title="Image2">
+            <img src="galry/q2.jpg">
+            </a>
+            <a href="galry/q3.jpg" data-lightbox="models" data-title="Image3">
+            <img src="galry/q3.jpg">
+            </a>
+            <a href="galry/q4.jpeg" data-lightbox="models" data-title="Image4">
+            <img src="galry/q4.jpeg">
+            </a>
+            <a href="galry/q5.jpg" data-lightbox="models" data-title="Image5">
+            <img src="galry/q5.jpg">
+            </a>
+            <a href="galry/q6.jpg" data-lightbox="models" data-title="Image6">
+            <img src="galry/q6.jpg">
+            </a>
+            <a href="galry/q7.jpg" data-lightbox="models" data-title="Image7">
+            <img src="galry/q7.jpg">
+            </a>
+            <a href="galry/q8.jpg" data-lightbox="models" data-title="Image8">
+            <img src="galry/q8.jpg">
+            </a>
+            <a href="galry/q9.jpg" data-lightbox="models" data-title="Image9">
+            <img src="galry/q9.jpg">
+            </a>
+            <a href="galry/q10.jpg" data-lightbox="models" data-title="Image10">
+            <img src="galry/q10.jpg">
+            </a>
+            <a href="galry/q11.jpg" data-lightbox="models" data-title="Image11">
+            <img src="galry/q11.jpg">
+            </a>
+            <a href="galry/q12.jpg" data-lightbox="models" data-title="Image12">
+            <img src="galry/q12.jpg">
+            </a>
+            <a href="galry/q13.jpg" data-lightbox="models" data-title="Image13">
+            <img src="galry/q13.jpg">
+            </a>
+            <a href="galry/q14.jpg" data-lightbox="models" data-title="Image14">
+            <img src="galry/q14.jpg">
+            </a>
+            <a href="galry/q15.jpg" data-lightbox="models" data-title="Image15">
+            <img src="galry/q15.jpg">
+            </a>
+            <a href="galry/q16.jpg" data-lightbox="models" data-title="Image16">
+            <img src="galry/q16.jpg">
+            </a>
+            <a href="galry/q18.jpg" data-lightbox="models" data-title="Image17">
+            <img src="galry/q18.jpg">
+            </a>
+            <a href="galry/q19.jpg" data-lightbox="models" data-title="Image18">
+            <img src="galry/q19.jpg">
+            </a>
+            <a href="galry/q21.jpg" data-lightbox="models" data-title="Image19">
+            <img src="galry/q21.jpg">
+            </a>
+            <a href="galry/q20.jpg" data-lightbox="models" data-title="Image20">
+            <img src="galry/q20.jpg">
+            </a>
+            <a href="galry/q22.jpg" data-lightbox="models" data-title="Image21">
+            <img src="galry/q22.jpg">
+            </a>
+            <a href="galry/q23.jpg" data-lightbox="models" data-title="Image22">
+            <img src="galry/q23.jpg">
+            </a>
+            <a href="galry/q24.jpg" data-lightbox="models" data-title="Image23">
+            <img src="galry/q24.jpg">
+            </a>
+            <a href="galry/q26.jpg" data-lightbox="models" data-title="Image24">
+            <img src="galry/q26.jpg">
+            </a>
+            <a href="galry/q25.jpg" data-lightbox="models" data-title="Image25">
+            <img src="galry/q25.jpg">
+            </a>
+            <a href="galry/q27.jpg" data-lightbox="models" data-title="Image26">
+            <img src="galry/q27.jpg">
+            </a>
+            <a href="galry/q28.jpg" data-lightbox="models" data-title="Image27">
+            <img src="galry/q28.jpg">
+            </a>
+            <a href="galry/q29.jpg" data-lightbox="models" data-title="Image28">
+            <img src="galry/q29.jpg">
+            </a>
+            <a href="galry/s1.jpg" data-lightbox="models" data-title="Image29">
+            <img src="galry/s1.jpg">
+            </a>
+            <a href="galry/s2.jpg" data-lightbox="models" data-title="Image30">
+            <img src="galry/s2.jpg">
+            </a>
+            <a href="galry/s3.jpg" data-lightbox="models" data-title="Image31">
+            <img src="galry/s3.jpg">
+            </a>
+            <a href="galry/s4.jpg" data-lightbox="models" data-title="Image32">
+            <img src="galry/s4.jpg">
+            </a>
+            <a href="galry/s5.jpg" data-lightbox="models" data-title="Image33">
+            <img src="galry/s5.jpg">
+            </a>
+            <a href="galry/s6.jpg" data-lightbox="models" data-title="Image34">
+            <img src="galry/s6.jpg">
+            </a>
+            <a href="galry/s7.jpg" data-lightbox="models" data-title="Image35">
+            <img src="galry/s7.jpg">
+            </a>
+            <a href="galry/s8.jpg" data-lightbox="models" data-title="Image36">
+            <img src="galry/s8.jpg">
+            </a>
+            <a href="galry/s9.jpg" data-lightbox="models" data-title="Image37">
+            <img src="galry/s9.jpg">
+            </a>
+            <a href="galry/s10.jpg" data-lightbox="models" data-title="Image38">
+            <img src="galry/s10.jpg">
+            </a>
+            <a href="galry/s11.jpg" data-lightbox="models" data-title="Image39">
+            <img src="galry/s11.jpg">
+            </a>
+            <a href="galry/s12.jpg" data-lightbox="models" data-title="Image40">
+            <img src="galry/s12.jpg">
+            </a>
+            <a href="galry/s13.jpg" data-lightbox="models" data-title="Image41">
+            <img src="galry/s13.jpg">
+            </a>
+            </div>
+        </div>
+        <script src="lightbox-plus-jquery.js"></script>
+        <div class="btn">
+        <button class="btnn">LOAD MORE</button>
+        </div>
+        <script>
+        var gall = document.querySelectorAll('.gall a');
+            var btnn = document.querySelector('.btnn');
+            var currentimg =5
+            btnn.addEventListener('click',function(){
+                for(var i = currentimg;i < currentimg +5;i++){
+                    if (gall[i]){
+                        gall[i].style.display='block';
+                    }
+                }
+                currentimg+= 5;
+                if(currentimg >= gall.length){
+                    event.target.style.display='none';
+                }
+            })
+        </script>
+        <div class="enq">    
+            <h5 id="5th"></h5>
+            <h1>ENQUIRE NOW!</h1>
+        <form action="https://formsubmit.co/jksolargurugram@gmail.com" method="POST">  
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="Email" name="email" placeholder="Email ID" required>
+            <input type="text" name="phone" placeholder="Phone No." required>
+            <input type="text" name="bill" placeholder="Monthly Bill" required>
+            <textarea name="Message" rows="4" placeholder="How Can We Help You?"></textarea>
+            <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="footer">
+            <div class="contact">
+        <h1>ADDRESS</h1>
+            <p>Near Sector 10 A Chowk, Kadipur Pataudi Road,<br> Kadipur Village, Sector 10, Gurugram, Haryana 122001,INDIA</p>
+            <h2>MOBILE NO.</h2>
+            <p>+91 9911244410<br>+91 9910304061<br>+91 9990677773</p>
+            <h3>EMAIL ID</h3>
+            <p>jksolargurugram@gmail.com</p>
+            </div>
+            <div class="social">
+            <h1>Social connections</h1>
+                <div class="si">
+                    <a href="https://www.facebook.com/profile.php?id=100089903424619&mibextid=ZbWKwL" class="fb"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://twitter.com/jk_solar?t=NVMZkUERTeaWaCnn-sIwZg&s=08" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/919910304061" class="whts"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            </div>
+    </body>
+</html>
